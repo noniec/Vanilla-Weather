@@ -103,28 +103,29 @@ a {
 }
 
 .weather-forecast {
-  margin-top: 20px;
-  text-align: center;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-}
-
-.weather-forecast-temperatures {
-  color: rgb(197, 66, 93);
-  margin: 7px;
-  opacity: 0.9;
-  font-size: 13px;
-  padding-inline: 5px;
-}
-
-.weather-forecast-date {
-  font-size: 15px;
-  opacity: 0.7;
-  margin: 7px;
+  display: flex; /* Use flexbox */
+  margin-top: 40px;
 }
 
 .weather-forecast-day {
-  display: flex;
-  justify-content: space-between;
+  flex: 1; /* Each day takes up equal space */
+  text-align: center; /* Center align content */
+  padding: 10px; /* Add some padding for spacing */
+}
+
+.weather-forecast-temperatures {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center align temperature elements horizontally */
+  color: rgb(197, 66, 93);
+  opacity: 0.9;
+  font-size: 15px;
+}
+
+.weather-forecast-temperature {
+  margin: 0 5px; /* Add some spacing between temperature elements */
+}
+
+.weather-forecast-date {
+  font-size: 17px;
+  opacity: 0.9;
 }
