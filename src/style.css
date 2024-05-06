@@ -1,6 +1,6 @@
 body {
   background-color: white;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   color: white;
@@ -100,4 +100,24 @@ a {
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+.weather-forecast-temperatures {
+  color: rgb(197, 66, 93);
+  margin: 7px;
+  opacity: 0.9;
+  font-size: 13px;
+  padding-inline: 5px;
+}
+
+.weather-forecast-date {
+  font-size: 15px;
+  opacity: 0.7;
+  margin: 7px;
 }
